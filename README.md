@@ -22,9 +22,18 @@ Developed by:
 RegisterNumber:  
 */
 ```
+def Sqrt(a,b):
+  x=a
+  for i in range(b):
+    x=0.5*(x+a/x)
+  print("Square root of the number:",x)
+a=int(input())
+b=100
+Sqrt(a,b) 
 
 ## Output:
-![gcd of two number](gcd.png)
+![gcd of two number](![sqrt output](https://github.com/premsuryas/Square-root-of-a-number/assets/147473858/f15f9764-956e-43a2-84f5-9e3a5a2e0c82)
+.png)
 
 
 ## Result:
